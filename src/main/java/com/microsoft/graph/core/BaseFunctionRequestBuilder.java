@@ -4,12 +4,12 @@
 
 package com.microsoft.graph.core;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.microsoft.graph.http.BaseRequestBuilder;
 import com.microsoft.graph.options.FunctionOption;
 import com.microsoft.graph.options.Option;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * The base method request builder class

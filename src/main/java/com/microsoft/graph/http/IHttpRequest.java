@@ -22,11 +22,11 @@
 
 package com.microsoft.graph.http;
 
-import com.microsoft.graph.options.HeaderOption;
-import com.microsoft.graph.options.Option;
-
 import java.net.URL;
 import java.util.List;
+
+import com.microsoft.graph.options.HeaderOption;
+import com.microsoft.graph.options.Option;
 
 /**
  * An HTTP request

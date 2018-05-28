@@ -22,11 +22,10 @@
 
 package com.microsoft.graph.http;
 
-import com.google.gson.JsonObject;
-
-import com.microsoft.graph.serializer.IJsonBackedObject;
-
 import java.util.List;
+
+import com.google.gson.JsonObject;
+import com.microsoft.graph.serializer.IJsonBackedObject;
 
 /**
  * A page of results from a collection

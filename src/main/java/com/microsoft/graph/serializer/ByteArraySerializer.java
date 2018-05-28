@@ -22,9 +22,9 @@
 
 package com.microsoft.graph.serializer;
 
-import com.google.common.io.BaseEncoding;
-
 import java.text.ParseException;
+
+import com.google.common.io.BaseEncoding;
 
 /**
  * Serializer for byte[]s

@@ -22,8 +22,9 @@
 
 package com.microsoft.graph.concurrency;
 
-import com.microsoft.graph.requests.extensions.ChunkedUploadResult;
-import com.microsoft.graph.models.extensions.UploadSession;
+import java.io.BufferedInputStream;
+import java.io.InputStream;
+
 import com.microsoft.graph.http.DefaultHttpProvider;
 import com.microsoft.graph.http.GraphServiceException;
 import com.microsoft.graph.http.HttpResponseCode;
@@ -31,10 +32,9 @@ import com.microsoft.graph.http.IConnection;
 import com.microsoft.graph.http.IHttpRequest;
 import com.microsoft.graph.http.IStatefulResponseHandler;
 import com.microsoft.graph.logger.ILogger;
+import com.microsoft.graph.models.extensions.UploadSession;
+import com.microsoft.graph.requests.extensions.ChunkedUploadResult;
 import com.microsoft.graph.serializer.ISerializer;
-
-import java.io.BufferedInputStream;
-import java.io.InputStream;
 
 /**
  * Handles the stateful response from the OneDrive upload session

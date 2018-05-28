@@ -21,12 +21,12 @@
 // ------------------------------------------------------------------------------
 package com.microsoft.graph.serializer;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonPrimitive;
-
 import java.lang.reflect.Type;
 import java.util.EnumSet;
 import java.util.Iterator;
+
+import com.google.gson.Gson;
+import com.google.gson.JsonPrimitive;
 
 /**
  * Serializes and deserializes EnumSets

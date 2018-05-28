@@ -4,12 +4,12 @@
 
 package com.microsoft.graph.core;
 
-import com.microsoft.graph.http.BaseRequestBuilder;
-import com.microsoft.graph.options.Option;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import com.microsoft.graph.http.BaseRequestBuilder;
+import com.microsoft.graph.options.Option;
 
 /**
  * The base method request builder class used for POST actions

@@ -22,6 +22,15 @@
 
 package com.microsoft.graph.serializer;
 
+import java.lang.reflect.Type;
+import java.text.ParseException;
+import java.util.Calendar;
+import java.util.EnumSet;
+import java.util.GregorianCalendar;
+
+import javax.xml.datatype.DatatypeFactory;
+import javax.xml.datatype.Duration;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonDeserializationContext;
@@ -33,15 +42,6 @@ import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
 import com.microsoft.graph.logger.ILogger;
 import com.microsoft.graph.models.extensions.DateOnly;
-
-import java.lang.reflect.Type;
-import java.text.ParseException;
-import java.util.Calendar;
-import java.util.EnumSet;
-import java.util.GregorianCalendar;
-
-import javax.xml.datatype.DatatypeFactory;
-import javax.xml.datatype.Duration;
 
 /**
  * Produce GSON instances that can parse HTTP responses

@@ -22,12 +22,12 @@
 
 package com.microsoft.graph.concurrency;
 
-import com.microsoft.graph.logger.ILogger;
-import com.google.common.annotations.VisibleForTesting;
-import com.microsoft.graph.core.ClientException;
-
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
+
+import com.google.common.annotations.VisibleForTesting;
+import com.microsoft.graph.core.ClientException;
+import com.microsoft.graph.logger.ILogger;
 
 /**
  * The default executors implementation for the SDK

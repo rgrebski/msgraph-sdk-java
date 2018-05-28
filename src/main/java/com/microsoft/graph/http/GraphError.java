@@ -23,7 +23,6 @@
 package com.microsoft.graph.http;
 
 import com.google.gson.annotations.SerializedName;
-
 import com.microsoft.graph.core.GraphErrorCodes;
 
 public class GraphError {

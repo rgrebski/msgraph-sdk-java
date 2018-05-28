@@ -22,12 +22,12 @@
 
 package com.microsoft.graph.http;
 
+import java.util.Collections;
+import java.util.List;
+
 import com.google.gson.JsonObject;
 import com.microsoft.graph.serializer.AdditionalDataManager;
 import com.microsoft.graph.serializer.ISerializer;
-
-import java.util.Collections;
-import java.util.List;
 
 /**
  * A page of results from a collection

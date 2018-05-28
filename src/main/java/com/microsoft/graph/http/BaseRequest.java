@@ -22,24 +22,24 @@
 
 package com.microsoft.graph.http;
 
-import java.net.URI;
-import javax.ws.rs.core.UriBuilder;
-
-import com.microsoft.graph.concurrency.ICallback;
-import com.microsoft.graph.core.IBaseClient;
-import com.microsoft.graph.options.FunctionOption;
-import com.microsoft.graph.options.QueryOption;
-import com.microsoft.graph.core.ClientException;
-import com.microsoft.graph.core.Constants;
-import com.microsoft.graph.options.HeaderOption;
-import com.microsoft.graph.options.Option;
-
 import java.net.MalformedURLException;
+import java.net.URI;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
+
+import javax.ws.rs.core.UriBuilder;
+
+import com.microsoft.graph.concurrency.ICallback;
+import com.microsoft.graph.core.ClientException;
+import com.microsoft.graph.core.Constants;
+import com.microsoft.graph.core.IBaseClient;
+import com.microsoft.graph.options.FunctionOption;
+import com.microsoft.graph.options.HeaderOption;
+import com.microsoft.graph.options.Option;
+import com.microsoft.graph.options.QueryOption;
 
 /**
  * An HTTP request

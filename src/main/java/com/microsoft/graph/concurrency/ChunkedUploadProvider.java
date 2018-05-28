@@ -23,18 +23,16 @@
 package com.microsoft.graph.concurrency;
 
 
-import com.microsoft.graph.concurrency.ChunkedUploadResponseHandler;
-import com.microsoft.graph.concurrency.IProgressCallback;
-import com.microsoft.graph.requests.extensions.ChunkedUploadRequest;
-import com.microsoft.graph.requests.extensions.ChunkedUploadResult;
-import com.microsoft.graph.models.extensions.IGraphServiceClient;
-import com.microsoft.graph.models.extensions.UploadSession;
-import com.microsoft.graph.options.Option;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.security.InvalidParameterException;
 import java.util.List;
+
+import com.microsoft.graph.models.extensions.IGraphServiceClient;
+import com.microsoft.graph.models.extensions.UploadSession;
+import com.microsoft.graph.options.Option;
+import com.microsoft.graph.requests.extensions.ChunkedUploadRequest;
+import com.microsoft.graph.requests.extensions.ChunkedUploadResult;
 
 /**
  * ChunkedUpload service provider

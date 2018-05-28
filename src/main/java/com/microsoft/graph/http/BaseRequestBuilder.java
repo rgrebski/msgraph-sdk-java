@@ -22,12 +22,12 @@
 
 package com.microsoft.graph.http;
 
-import com.microsoft.graph.core.IBaseClient;
-import com.microsoft.graph.options.Option;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import com.microsoft.graph.core.IBaseClient;
+import com.microsoft.graph.options.Option;
 
 /**
  * A request builder

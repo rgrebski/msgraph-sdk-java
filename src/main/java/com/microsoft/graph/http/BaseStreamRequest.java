@@ -22,15 +22,15 @@
 
 package com.microsoft.graph.http;
 
+import java.io.InputStream;
+import java.net.URL;
+import java.util.List;
+
 import com.microsoft.graph.concurrency.ICallback;
 import com.microsoft.graph.core.ClientException;
 import com.microsoft.graph.core.IBaseClient;
 import com.microsoft.graph.options.HeaderOption;
 import com.microsoft.graph.options.Option;
-
-import java.io.InputStream;
-import java.net.URL;
-import java.util.List;
 
 /**
  * A request for a binary stream

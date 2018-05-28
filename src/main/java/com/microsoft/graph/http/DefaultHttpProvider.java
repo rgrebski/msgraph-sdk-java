@@ -22,17 +22,6 @@
 
 package com.microsoft.graph.http;
 
-import com.google.common.annotations.VisibleForTesting;
-import com.microsoft.graph.authentication.IAuthenticationProvider;
-import com.microsoft.graph.concurrency.ICallback;
-import com.microsoft.graph.concurrency.IExecutors;
-import com.microsoft.graph.concurrency.IProgressCallback;
-import com.microsoft.graph.core.ClientException;
-import com.microsoft.graph.logger.ILogger;
-import com.microsoft.graph.logger.LoggerLevel;
-import com.microsoft.graph.options.HeaderOption;
-import com.microsoft.graph.serializer.ISerializer;
-
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
@@ -43,6 +32,17 @@ import java.net.URL;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
+
+import com.google.common.annotations.VisibleForTesting;
+import com.microsoft.graph.authentication.IAuthenticationProvider;
+import com.microsoft.graph.concurrency.ICallback;
+import com.microsoft.graph.concurrency.IExecutors;
+import com.microsoft.graph.concurrency.IProgressCallback;
+import com.microsoft.graph.core.ClientException;
+import com.microsoft.graph.logger.ILogger;
+import com.microsoft.graph.logger.LoggerLevel;
+import com.microsoft.graph.options.HeaderOption;
+import com.microsoft.graph.serializer.ISerializer;
 
 /**
  * HTTP provider based off of URLConnection

@@ -22,6 +22,11 @@
 
 package com.microsoft.graph.serializer;
 
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import com.google.common.base.CaseFormat;
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;
 import com.google.gson.TypeAdapterFactory;
@@ -31,12 +36,6 @@ import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
 import com.microsoft.graph.logger.DefaultLogger;
 import com.microsoft.graph.logger.ILogger;
-
-import com.google.common.base.*;
-
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * FallBackEnumTypeAdapter class for handling unexpected values
