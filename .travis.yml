@@ -2,3 +2,4 @@ language: java
 before_script:
  - "echo $JAVA_OPTS"
  - "export JAVA_OPTS=-Xmx4000m"
+ - "export _JAVA_OPTIONS=-Xmx4000m" 
